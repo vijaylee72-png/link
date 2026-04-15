@@ -24,9 +24,11 @@ export default function Navbar() {
       <div className="max-w-[1600px] mx-auto px-6 md:px-12">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <a href="#" className="flex flex-col group">
-            <span className="text-[17px] font-bold text-white leading-none logo-text">Linkwise Global</span>
-            <span className="text-[9px] text-primary font-bold mt-1.5 tracking-[0.05em]">領維國際有限公司</span>
+          <a href="#" className="flex items-center gap-3 group">
+            <div className="flex flex-col">
+              <span className="text-[17px] font-bold text-white leading-none logo-text tracking-tight">Linkwise Global</span>
+              <span className="text-[9px] text-primary font-bold mt-1.5 tracking-[0.05em]">領維國際有限公司</span>
+            </div>
           </a>
 
           {/* Center Text - Desktop */}
@@ -36,7 +38,8 @@ export default function Navbar() {
               <span className="text-primary italic">Link Wise,</span>
               <span className="text-white italic">Lead Far</span>
               <span className="text-white/20 mx-1">·</span>
-              <span className="text-white/40 font-medium">以專業破局，助企業致遠</span>
+              <span className="text-primary italic">以專業破局，</span>
+              <span className="text-white italic">助企業致遠</span>
             </div>
             <div className="w-8 h-[1px] bg-white/10" />
           </div>

@@ -6,19 +6,34 @@ export default function Advantage() {
     {
       title: "嚴格合規管理",
       sub: "Rigorous Compliance",
-      desc: "精準把握國際監管環境，確保企業跨境營運的安全與穩健。",
+      desc: (
+        <>
+          精準把握國際監管環境，確保企業跨境營運的安全與穩健。
+          <span className="block mt-1 opacity-60 text-[11px] italic">Precisely navigating the international regulatory environment to ensure safe and stable cross-border operations.</span>
+        </>
+      ),
       icon: ShieldCheck,
     },
     {
       title: "戰略數字化轉型",
       sub: "Strategic Digitalization",
-      desc: "部署先進數字化框架，優化供應鏈效率，提升現代企業營運能力。",
+      desc: (
+        <>
+          部署先進數字化框架，優化供應鏈效率，提升現代企業營運能力。
+          <span className="block mt-1 opacity-60 text-[11px] italic">Deploying advanced digital frameworks to optimize supply chain efficiency and enhance modern operational capabilities.</span>
+        </>
+      ),
       icon: Zap,
     },
     {
       title: "突破性增長路徑",
       sub: "Breakthrough Trajectories",
-      desc: "洞察新商業模式與技術前沿的高速成長潛力，引領企業實現跨越式發展。",
+      desc: (
+        <>
+          洞察新商業模式與技術前沿的高速成長潛力，引領企業實現跨越式發展。
+          <span className="block mt-1 opacity-60 text-[11px] italic">Insights into the high-growth potential of new business models and technological frontiers, leading leapfrog development.</span>
+        </>
+      ),
       icon: TrendingUp,
     },
   ];
@@ -40,10 +55,12 @@ export default function Advantage() {
             <h2 className="text-5xl md:text-6xl font-bold mb-8 text-white leading-tight">
               為何選擇<br />
               <span className="text-primary">領維國際</span>
+              <span className="block text-[18px] md:text-[22px] mt-4 opacity-40 font-medium tracking-normal uppercase">Why Choose Linkwise Global</span>
             </h2>
             
             <p className="text-[15px] text-muted-foreground leading-relaxed max-w-md">
               在瞬息萬變的商業環境中，企業需要的不僅是資本，更需要具有前瞻性的戰略佈局與卓越的營運支持。我們是推動企業突破性發展的關鍵催化劑。
+              <span className="block mt-4 opacity-60 italic">In a rapidly changing business environment, enterprises need more than just capital; they need forward-looking strategic layouts and excellent operational support. We are the key catalyst for breakthrough development.</span>
             </p>
           </motion.div>
 

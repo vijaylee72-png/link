@@ -36,6 +36,7 @@ export default function CoreServices() {
 
         <h2 className="text-5xl md:text-6xl font-bold mb-8 text-white leading-tight">
           三大核心業務
+          <span className="block text-[18px] md:text-[22px] mt-4 opacity-40 font-medium tracking-normal uppercase">Three Core Business Pillars</span>
         </h2>
         
         <p className="text-lg italic text-muted-foreground/60 mb-20">

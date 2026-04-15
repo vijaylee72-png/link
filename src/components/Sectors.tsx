@@ -6,19 +6,34 @@ export default function Sectors() {
     {
       title: "互聯網領域",
       sub: "Internet Sector",
-      desc: "深度洞察數字化轉型趨勢，助力企業構建平台經濟優勢，把握互聯網行業屬性機會。",
+      desc: (
+        <>
+          深度洞察數字化轉型趨勢，助力企業構建平台經濟優勢，把握互聯網行業屬性機會。
+          <span className="block mt-2 opacity-60 text-[12px] italic">Deep insights into digital transformation trends, helping enterprises build platform economy advantages and seize opportunities in the Internet sector.</span>
+        </>
+      ),
       icon: Laptop,
     },
     {
       title: "大消費領域",
       sub: "Consumer Goods",
-      desc: "精準捕捉消費升級與行為變遷，為企業提供品牌建設、渠道優化及市場策略全方位支持。",
+      desc: (
+        <>
+          精準捕捉消費升級與行為變遷，為企業提供品牌建設、渠道優化及市場策略全方位支持。
+          <span className="block mt-2 opacity-60 text-[12px] italic">Precisely capturing consumption upgrades and behavioral changes, providing comprehensive support for brand building, channel optimization, and market strategy.</span>
+        </>
+      ),
       icon: ShoppingBag,
     },
     {
       title: "跨境電商",
       sub: "Cross-border E-commerce",
-      desc: "整合國際貿易資源與跨境物流，協助企業高效佈局海外市場，實現可持續的跨境業務增長。",
+      desc: (
+        <>
+          整合國際貿易資源與跨境物流，協助企業高效佈局海外市場，實現可持續的跨境業務增長。
+          <span className="block mt-2 opacity-60 text-[12px] italic">Integrating international trade resources and cross-border logistics to assist enterprises in efficiently deploying overseas markets and achieving sustainable growth.</span>
+        </>
+      ),
       icon: Globe,
     },
   ];
@@ -33,6 +48,7 @@ export default function Sectors() {
 
         <h2 className="text-5xl md:text-6xl font-bold mb-8 text-white leading-tight">
           深耕三大垂直領域
+          <span className="block text-[18px] md:text-[22px] mt-4 opacity-40 font-medium tracking-normal uppercase">Deep Expertise Across Vertical Sectors</span>
         </h2>
         
         <p className="text-lg italic text-muted-foreground/60 mb-20">

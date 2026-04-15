@@ -55,6 +55,7 @@ export default function Hero() {
             >
               驅動企業<br />
               <span className="text-primary">突破成長</span>
+              <span className="block text-[20px] md:text-[24px] mt-4 opacity-40 font-medium tracking-normal">Driving Enterprise Breakthrough Growth</span>
             </motion.h1>
 
             <motion.div
@@ -68,6 +69,7 @@ export default function Hero() {
               </p>
               <p className="text-[15px] text-muted-foreground leading-relaxed font-medium">
                 領維國際匯集行業資深從業者，專注互聯網、大消費及跨境電商領域。為企業提供涵蓋戰略、營運、品牌、供應鏈、合規及數字化的全週期定制諮詢服務，助力客戶實現可持續的長期成功。
+                <span className="block mt-4 opacity-60 font-normal italic">Linkwise Global brings together industry veterans focused on the Internet, consumer goods, and cross-border e-commerce. We provide customized full-lifecycle consulting services covering strategy, operations, branding, supply chain, compliance, and digitalization to help clients achieve sustainable long-term success.</span>
               </p>
             </motion.div>
 
@@ -81,7 +83,7 @@ export default function Hero() {
                 href="mailto:link@linkwiseglobal.com"
                 className="px-8 py-4 bg-primary text-primary-foreground rounded-xl font-bold text-[14px] flex items-center gap-2 hover:opacity-90 transition-all shadow-[0_0_30px_rgba(16,185,129,0.2)]"
               >
-                預約諮詢
+                預約諮詢 · CONSULT NOW
                 <ArrowRight className="w-4 h-4" />
               </a>
             </motion.div>

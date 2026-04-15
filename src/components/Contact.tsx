@@ -18,6 +18,7 @@ export default function Contact() {
 
             <h2 className="text-5xl md:text-6xl font-bold mb-6 text-white leading-tight">
               開啟合作對話
+              <span className="block text-[18px] md:text-[22px] mt-4 opacity-40 font-medium tracking-normal uppercase">Open a Strategic Dialogue</span>
             </h2>
             
             <p className="text-lg italic text-muted-foreground/60 mb-10">
@@ -26,6 +27,7 @@ export default function Contact() {
 
             <p className="text-[15px] text-muted-foreground leading-relaxed mb-12 max-w-md">
               與我們的資深顧問團隊深入交流，探索領維國際如何為您的企業發展注入新的動能。
+              <span className="block mt-4 opacity-60 italic">Engage in deep discussions with our senior consulting team to explore how Linkwise Global can inject new momentum into your enterprise development.</span>
             </p>
 
             <div className="space-y-10">
@@ -34,7 +36,7 @@ export default function Contact() {
                   <MapPin className="text-primary w-6 h-6" />
                 </div>
                 <div>
-                  <div className="font-bold text-lg text-white mb-2">辦公地址</div>
+                  <div className="font-bold text-lg text-white mb-2">辦公地址 · OFFICE ADDRESS</div>
                   <div className="text-muted-foreground text-[14px] leading-relaxed">
                     香港灣仔港灣道26號華潤大廈27樓
                     <span className="block text-[11px] mt-1 opacity-60">27/F, China Resources Building, 26 Harbour Road, Wan Chai, Hong Kong</span>
@@ -46,7 +48,7 @@ export default function Contact() {
                   <Mail className="text-primary w-6 h-6" />
                 </div>
                 <div>
-                  <div className="font-bold text-lg text-white mb-2">電子郵件</div>
+                  <div className="font-bold text-lg text-white mb-2">電子郵件 · EMAIL US</div>
                   <div className="text-primary text-[14px] font-mono">link@linkwiseglobal.com</div>
                 </div>
               </div>
@@ -59,8 +61,8 @@ export default function Contact() {
             viewport={{ once: true }}
             className="bg-[#0f172a]/50 border border-white/5 p-10 md:p-12 rounded-[40px] shadow-2xl backdrop-blur-sm"
           >
-            <h3 className="text-2xl font-bold text-white mb-2">預約諮詢</h3>
-            <div className="text-primary text-[11px] font-bold tracking-widest uppercase mb-10 italic">Request a Consultation</div>
+            <h3 className="text-2xl font-bold text-white mb-2">預約諮詢 · CONSULTATION</h3>
+            <div className="text-primary text-[11px] font-bold tracking-widest uppercase mb-10 italic">Request a Strategic Session</div>
 
             <div className="space-y-8">
               <div className="space-y-3">
@@ -83,7 +85,7 @@ export default function Contact() {
                 <label className="text-[11px] font-bold uppercase tracking-[0.15em] text-muted-foreground">諮詢需求 INQUIRY</label>
                 <textarea 
                   rows={4}
-                  placeholder="請簡要描述您的諮詢需求..."
+                  placeholder="請簡要描述您的諮詢需求... / Please briefly describe your inquiry..."
                   className="w-full bg-white/[0.03] border border-white/10 rounded-xl px-5 py-4 text-white focus:border-primary outline-none transition-all resize-none placeholder:text-white/10"
                 />
               </div>
@@ -91,7 +93,7 @@ export default function Contact() {
                 href="mailto:link@linkwiseglobal.com"
                 className="w-full py-5 bg-primary text-primary-foreground rounded-xl font-bold text-[15px] flex items-center justify-center gap-2 hover:opacity-90 transition-all group shadow-[0_0_30px_rgba(16,185,129,0.2)]"
               >
-                提交諮詢請求
+                提交諮詢請求 · SUBMIT REQUEST
                 <Send className="w-4 h-4 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
               </a>
             </div>
