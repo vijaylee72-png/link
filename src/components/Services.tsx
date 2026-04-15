@@ -42,13 +42,9 @@ export default function Advantage() {
               <span className="text-primary">領維國際</span>
             </h2>
             
-            <p className="text-[15px] text-muted-foreground leading-relaxed max-w-md mb-12">
+            <p className="text-[15px] text-muted-foreground leading-relaxed max-w-md">
               在瞬息萬變的商業環境中，企業需要的不僅是資本，更需要具有前瞻性的戰略佈局與卓越的營運支持。我們是推動企業突破性發展的關鍵催化劑。
             </p>
-
-            <button className="px-8 py-4 bg-primary text-primary-foreground rounded-xl font-bold text-[14px] hover:opacity-90 transition-all shadow-[0_0_30px_rgba(16,185,129,0.2)]">
-              預約專家諮詢
-            </button>
           </motion.div>
 
           <div className="space-y-4">

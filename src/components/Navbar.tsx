@@ -33,8 +33,8 @@ export default function Navbar() {
           <div className="hidden lg:flex items-center gap-4">
             <div className="w-8 h-[1px] bg-white/10" />
             <div className="flex items-center gap-2 text-[11px] font-bold tracking-[0.15em]">
-              <span className="text-primary italic">LINK WISE,</span>
-              <span className="text-white italic">LEAD FAR</span>
+              <span className="text-primary italic">Link Wise,</span>
+              <span className="text-white italic">Lead Far</span>
               <span className="text-white/20 mx-1">·</span>
               <span className="text-white/40 font-medium">以專業破局，助企業致遠</span>
             </div>
