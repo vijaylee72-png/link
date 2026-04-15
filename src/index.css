@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", "PingFang SC", "Microsoft YaHei", sans-serif;
+  --font-logo: "Montserrat", sans-serif;
+  
+  --color-background: #020617;
+  --color-foreground: #f8fafc;
+  --color-primary: #10b981;
+  --color-primary-foreground: #020617;
+  --color-secondary: #0f172a;
+  --color-secondary-foreground: #f8fafc;
+  --color-muted: #1e293b;
+  --color-muted-foreground: #94a3b8;
+  --color-accent: #10b981;
+  --color-accent-foreground: #020617;
+  --color-card: #0f172a;
+  --color-card-foreground: #f8fafc;
+  --color-border: #1e293b;
+  --color-input: #1e293b;
+  --color-ring: #10b981;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-size: 14px;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold tracking-tight text-white;
+  }
+}
+
+.glass {
+  @apply bg-background/80 backdrop-blur-md;
+}
+
+.nav-link-text {
+  @apply text-[13px] font-medium transition-colors;
+}
+
+.nav-link-sub {
+  @apply text-[9px] tracking-[0.1em] font-medium transition-colors;
+}
+
+.section-label {
+  @apply text-primary text-[11px] font-bold tracking-[0.2em] uppercase flex items-center gap-3;
+}
+
+.section-label::before {
+  content: "";
+  @apply w-8 h-[1px] bg-primary;
+}
+
+.card-dark {
+  @apply bg-white/[0.02] border border-white/5 rounded-[24px] transition-all duration-300;
+}
+
+.card-dark:hover {
+  @apply border-primary/30 bg-white/[0.04];
+}
+
+.logo-text {
+  @apply font-logo tracking-tight;
+}
