@@ -13,7 +13,7 @@ export default function Footer() {
           </div>
           
           <div className="text-[12px] text-muted-foreground">
-            © {new Date().getFullYear()} Linkwise Global Limited. All rights reserved.
+            © 2020 Linkwise Global Limited. All rights reserved.
           </div>
         </div>
       </div>

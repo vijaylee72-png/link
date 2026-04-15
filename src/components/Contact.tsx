@@ -62,7 +62,7 @@ export default function Contact() {
             <h3 className="text-2xl font-bold text-white mb-2">預約諮詢</h3>
             <div className="text-primary text-[11px] font-bold tracking-widest uppercase mb-10 italic">Request a Consultation</div>
 
-            <form className="space-y-8" onSubmit={(e) => e.preventDefault()}>
+            <div className="space-y-8">
               <div className="space-y-3">
                 <label className="text-[11px] font-bold uppercase tracking-[0.15em] text-muted-foreground">企業名稱 ENTITY NAME</label>
                 <input 
@@ -87,11 +87,14 @@ export default function Contact() {
                   className="w-full bg-white/[0.03] border border-white/10 rounded-xl px-5 py-4 text-white focus:border-primary outline-none transition-all resize-none placeholder:text-white/10"
                 />
               </div>
-              <button className="w-full py-5 bg-primary text-primary-foreground rounded-xl font-bold text-[15px] flex items-center justify-center gap-2 hover:opacity-90 transition-all group shadow-[0_0_30px_rgba(16,185,129,0.2)]">
+              <a 
+                href="mailto:link@linkwiseglobal.com"
+                className="w-full py-5 bg-primary text-primary-foreground rounded-xl font-bold text-[15px] flex items-center justify-center gap-2 hover:opacity-90 transition-all group shadow-[0_0_30px_rgba(16,185,129,0.2)]"
+              >
                 提交諮詢請求
                 <Send className="w-4 h-4 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
-              </button>
-            </form>
+              </a>
+            </div>
           </motion.div>
         </div>
       </div>

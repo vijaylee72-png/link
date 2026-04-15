@@ -57,11 +57,11 @@ export default function Navbar() {
             </div>
             
             <a 
-              href="#contact" 
-              className="px-6 py-2 bg-primary text-primary-foreground rounded-lg flex flex-col items-center justify-center hover:opacity-90 transition-all shadow-[0_0_20px_rgba(16,185,129,0.2)] min-w-[100px]"
+              href="mailto:link@linkwiseglobal.com" 
+              className="px-5 py-1.5 bg-primary text-primary-foreground rounded-lg flex flex-col items-center justify-center hover:opacity-90 transition-all shadow-[0_0_20px_rgba(16,185,129,0.2)] min-w-[90px]"
             >
-              <span className="text-[13px] font-bold leading-tight">立即諮詢</span>
-              <span className="text-[9px] font-medium opacity-70 tracking-wider">CONTACT US</span>
+              <span className="text-[12px] font-bold leading-tight">立即諮詢</span>
+              <span className="text-[8px] font-medium opacity-70 tracking-wider">CONTACT US</span>
             </a>
           </div>
 

@@ -77,14 +77,13 @@ export default function Hero() {
               transition={{ delay: 0.3 }}
               className="flex flex-wrap gap-4 mt-10"
             >
-              <button className="px-8 py-4 bg-primary text-primary-foreground rounded-xl font-bold text-[14px] flex items-center gap-2 hover:opacity-90 transition-all shadow-[0_0_30px_rgba(16,185,129,0.2)]">
-                了解主要業務
-                <ArrowRight className="w-4 h-4" />
-              </button>
-              <button className="px-8 py-4 bg-white/5 border border-white/10 text-white rounded-xl font-bold text-[14px] flex items-center gap-2 hover:bg-white/10 transition-all">
+              <a 
+                href="mailto:link@linkwiseglobal.com"
+                className="px-8 py-4 bg-primary text-primary-foreground rounded-xl font-bold text-[14px] flex items-center gap-2 hover:opacity-90 transition-all shadow-[0_0_30px_rgba(16,185,129,0.2)]"
+              >
                 預約諮詢
-                <ChevronRight className="w-4 h-4 opacity-40" />
-              </button>
+                <ArrowRight className="w-4 h-4" />
+              </a>
             </motion.div>
           </div>
 
